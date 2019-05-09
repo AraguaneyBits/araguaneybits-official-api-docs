@@ -4,19 +4,18 @@ Endpoints, parameters, payloads, etc. described in the documents in this reposit
 
 The use of any other streams, endpoints, parameters, or payloads, etc. is **not supported**; **use them at your own risk and with no guarantees.**
 
-
 Name | Description
 ------------ | ------------ 
 [rest-api.md](./rest-api.md) | Details on the Rest API (/api)
 
-
-Postman Collection
+### Postman Collection
 
 https://www.getpostman.com/collections/179996088d4bc5ee8ac9
 
+[postman collection](./public-api-araguaneybits.postman_collection.json) | Postman Collection V2.1
 
 
-Official social networks here:
+### Official social networks here:
 
 **https://t.me/araguaneybits**
 
