@@ -10,6 +10,12 @@ Name | Description
 [rest-api.md](./rest-api.md) | Details on the Rest API (/api)
 
 
+Postman Collection
+
+https://www.getpostman.com/collections/179996088d4bc5ee8ac9
+
+
+
 Official social networks here:
 
 **https://t.me/araguaneybits**
