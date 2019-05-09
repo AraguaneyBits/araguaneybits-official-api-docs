@@ -28,5 +28,95 @@
 * Parameters may be sent in any order.
 * If a parameter sent in both the `query string` and `request body`, the
   `query string` parameter will be used.
-  
-  
+    
+# Public API Endpoints
+
+## General endpoints
+### Test connectivity
+```
+GET /api/v1/version
+```
+Test connectivity to the Rest API.
+
+**Weight:**
+1
+
+**Parameters:**
+NONE
+
+**Response:**
+```javascript
+{
+    "version": "1.0.0"
+}
+```
+
+### Check server time
+```
+GET /api/v1/time
+```
+Test connectivity to the Rest API and get the current server time.
+
+**Weight:**
+1
+
+**Parameters:**
+NONE
+
+**Response:**
+```javascript
+{
+    "server_time": 1557433979908
+}
+```
+
+### Symbol order book ticker
+```
+GET /api/v1/orderbook
+```
+Get the full order book.
+
+**Weight:**
+1
+
+**Parameters:**
+
+Name | Type | Mandatory | Description
+------------ | ------------ | ------------ | ------------
+symbol | STRING | YES |
+
+
+**Response:**
+```javascript
+{
+    "asks": [
+        {
+            "price": "0.00000010",
+            "quantity": "210.22418254",
+            "amount": "0.00002107",
+            "acumulate": "210.22418254"
+        },
+        {
+            "price": "0.00000011",
+            "quantity": "345.00000000",
+            "amount": "0.00003795",
+            "acumulate": "555.22418254"
+        }
+    ],
+    "bids": [
+        {
+            "price": "0.00000006",
+            "quantity": "401.33333333",
+            "amount": "0.00002408",
+            "acumulate": "19534.04520421"
+        },
+        {
+            "price": "0.00000005",
+            "quantity": "500.00000000",
+            "amount": "0.00002500",
+            "acumulate": "19534.04522921"
+        }
+    ]
+}
+```
+
