@@ -1,0 +1,755 @@
+{
+	"info": {
+		"_postman_id": "6df53676-34d1-41f0-9c0c-0e1451ebc148",
+		"name": "AraguaneyBits API Publica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/api/v1/version",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/version",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"version"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/v1/version",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"v1",
+								"version"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "19"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"13-mhub0MY7LCOQRiyLOAkHtszeFHI\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 20:33:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"version\": \"1.0.0\"\n}"
+				}
+			]
+		},
+		{
+			"name": "/api/v1/time",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/time",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"time"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/api/v1/instruments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/instruments",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"instruments"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.araguaneybits.com/v1.0/instruments",
+							"protocol": "https",
+							"host": [
+								"api",
+								"araguaneybits",
+								"com"
+							],
+							"path": [
+								"v1.0",
+								"instruments"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 18:28:49 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"22a-63BYqU1P+qu1pKdO+3dKlhvp6ow\""
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "4d45bc3f9a76b763-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"symbol\": \"AREPA-BTC\",\n        \"currency\": \"AREPA\",\n        \"currency_code\": \"BTC\",\n        \"state\": \"active\"\n    },\n    {\n        \"symbol\": \"BOLI-BTC\",\n        \"currency\": \"BOLI\",\n        \"currency_code\": \"BTC\",\n        \"state\": \"active\"\n    },\n    {\n        \"symbol\": \"DASH-BTC\",\n        \"currency\": \"DASH\",\n        \"currency_code\": \"BTC\",\n        \"state\": \"active\"\n    },\n    {\n        \"symbol\": \"LKR-BTC\",\n        \"currency\": \"LKR\",\n        \"currency_code\": \"BTC\",\n        \"state\": \"active\"\n    },\n    {\n        \"symbol\": \"ONX-BTC\",\n        \"currency\": \"ONX\",\n        \"currency_code\": \"BTC\",\n        \"state\": \"active\"\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "/api/v1/currencies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/currencies",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"currencies"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.araguaneybits.com/v1.0/currencies",
+							"protocol": "https",
+							"host": [
+								"api",
+								"araguaneybits",
+								"com"
+							],
+							"path": [
+								"v1.0",
+								"currencies"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 18:28:18 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"33a-6lPYsuiD17zbfwMzf1fMzseRfJc\""
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "4d45bb810f88b763-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"name\": \"LKRcoin\",\n        \"code\": \"LKR\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"1000000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 25\n    },\n    {\n        \"name\": \"BolivarCoin\",\n        \"code\": \"BOLI\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"1000000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 12\n    },\n    {\n        \"name\": \"Onixcoin\",\n        \"code\": \"ONX\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"1000000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 12\n    },\n    {\n        \"name\": \"ArepaCoin\",\n        \"code\": \"AREPA\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"1000000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 25\n    },\n    {\n        \"name\": \"DASH\",\n        \"code\": \"DASH\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"40000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 10\n    },\n    {\n        \"name\": \"BITCOIN\",\n        \"code\": \"BTC\",\n        \"is_crypto\": true,\n        \"decimal_number\": 8,\n        \"withdraw_fees\": \"80000\",\n        \"state\": \"active\",\n        \"deposit_confirmation\": 3\n    }\n]"
+				}
+			]
+		},
+		{
+			"name": "/api/v1/ticker?symbol={symbol}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/ticker?symbol=ONX-BTC",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"ticker"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "ONX-BTC"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.araguaneybits.com/v1.0/ticker?symbol=ONX-BTC",
+							"protocol": "https",
+							"host": [
+								"api",
+								"araguaneybits",
+								"com"
+							],
+							"path": [
+								"v1.0",
+								"ticker"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "ONX-BTC"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 18:30:25 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"14c-iaQKV06YbrS5YNeXkNwgHkKrJRQ\""
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "4d45be97e98cb763-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"symbol\": \"ONX-BTC\",\n    \"mid\": \"0.00000008\",\n    \"bid\": \"0.00000006\",\n    \"ask\": \"0.00000010\",\n    \"high\": \"0.00000010\",\n    \"low\": \"0.00000008\",\n    \"volume_pair\": \"298.55000000\",\n    \"volume\": \"0.00002726\",\n    \"last_price\": \"0.00000010\",\n    \"price_close_yesterday\": \"0.00000007\",\n    \"price_open_today\": \"0.00000009\",\n    \"vwap\": \"0\",\n    \"percent_change\": \"42.86\",\n    \"date\": \"2019-05-09T18:30:25.399Z\"\n}"
+				}
+			]
+		},
+		{
+			"name": "/api/v1/orderbook?symbol={symbol}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/orderbook?symbol=ONX-BTC&limit=1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"orderbook"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "ONX-BTC"
+						},
+						{
+							"key": "limit",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.araguaneybits.com/v1.0/orderbook?symbol=ONX-BTC&limit=1",
+							"protocol": "https",
+							"host": [
+								"api",
+								"araguaneybits",
+								"com"
+							],
+							"path": [
+								"v1.0",
+								"orderbook"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "ONX-BTC"
+								},
+								{
+									"key": "limit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 18:26:17 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"d9-sW58kmTGWcCpXSfSAW3wjmurxNU\""
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "4d45b8890cd4b763-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"asks\": [\n        {\n            \"price\": \"0.00000010\",\n            \"quantity\": \"224.82418254\",\n            \"amount\": \"0.00002253\",\n            \"acumulate\": \"224.82418254\"\n        }\n    ],\n    \"bids\": [\n        {\n            \"price\": \"0.00000006\",\n            \"quantity\": \"401.33333333\",\n            \"amount\": \"0.00002408\",\n            \"acumulate\": \"19534.04520421\"\n        }\n    ]\n}"
+				}
+			]
+		},
+		{
+			"name": "/api/v1/trades?symbol={symbol}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.araguaneybits.com/api/v1/trades?symbol=ONX-BTC&limit=10",
+					"protocol": "https",
+					"host": [
+						"api",
+						"araguaneybits",
+						"com"
+					],
+					"path": [
+						"api",
+						"v1",
+						"trades"
+					],
+					"query": [
+						{
+							"key": "symbol",
+							"value": "ONX-BTC"
+						},
+						{
+							"key": "limit",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "https://api.araguaneybits.com/v1.0/trades?symbol=ONX-BTC&limit=10",
+							"protocol": "https",
+							"host": [
+								"api",
+								"araguaneybits",
+								"com"
+							],
+							"path": [
+								"v1.0",
+								"trades"
+							],
+							"query": [
+								{
+									"key": "symbol",
+									"value": "ONX-BTC"
+								},
+								{
+									"key": "limit",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 09 May 2019 18:25:43 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Access-Control-Allow-Methods",
+							"value": "GET, POST, OPTIONS, PUT, DELETE"
+						},
+						{
+							"key": "Access-Control-Allow-Headers",
+							"value": "X-Requested-With,Content-Type,Authorization"
+						},
+						{
+							"key": "Access-Control-Expose-Headers",
+							"value": "X-Email-Needs-Validation,X-Quota-Per-Item,X-Quota-Items-Limit,X-RateLimit-Limit,X-RateLimit-Remaining"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"56b-MXLhTs/2u56JNi2TZXnJwEQOgTY\""
+						},
+						{
+							"key": "Expect-CT",
+							"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
+						},
+						{
+							"key": "Server",
+							"value": "cloudflare"
+						},
+						{
+							"key": "CF-RAY",
+							"value": "4d45b7b41ff3b763-CDG"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T18:00:01.907Z\",\n        \"quantity\": \"17.70000000\",\n        \"volume\": \"0.00000177\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T17:00:01.228Z\",\n        \"quantity\": \"5.00000000\",\n        \"volume\": \"0.00000050\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T16:00:01.759Z\",\n        \"quantity\": \"8.90000000\",\n        \"volume\": \"0.00000089\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T15:00:01.176Z\",\n        \"quantity\": \"15.40000000\",\n        \"volume\": \"0.00000154\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T14:00:01.457Z\",\n        \"quantity\": \"12.10000000\",\n        \"volume\": \"0.00000121\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T13:00:01.618Z\",\n        \"quantity\": \"15.43692857\",\n        \"volume\": \"0.00000154\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T13:00:01.618Z\",\n        \"quantity\": \"1.66307143\",\n        \"volume\": \"0.00000017\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T12:00:02.435Z\",\n        \"quantity\": \"14.80000000\",\n        \"volume\": \"0.00000148\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T11:00:01.640Z\",\n        \"quantity\": \"5.50000000\",\n        \"volume\": \"0.00000055\",\n        \"price\": \"0.00000010\"\n    },\n    {\n        \"side\": \"buy\",\n        \"symbol\": \"ONX-BTC\",\n        \"created\": \"2019-05-09T10:00:01.242Z\",\n        \"quantity\": \"13.30000000\",\n        \"volume\": \"0.00000133\",\n        \"price\": \"0.00000010\"\n    }\n]"
+				}
+			]
+		}
+	]
+}
