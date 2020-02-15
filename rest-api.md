@@ -158,6 +158,69 @@ NONE
 
 ### Tickers
 ```
+GET /api/v1/tickers
+```
+The tickers is a high level overview of the state of the market. It shows you the current best bid and ask, as well as the last trade price. It also includes information such as daily volume and how much the price has moved over the last day.
+
+**Weight:**
+1
+
+**Parameters:**
+
+Without parameters
+
+**Response:**
+```json
+[{
+	"symbol": "BOLI-BTC",
+	"mid": "0.00000057",
+	"bid": "0.00000028",
+	"ask": "0.00000086",
+	"high": "0.00000086",
+	"low": "0.00000086",
+	"volume_pair": "5.00000000",
+	"volume": "0.00000430",
+	"last_price": "0.00000086",
+	"price_close_yesterday": "0.00000028",
+	"price_open_today": "0.00000028",
+	"vwap": "0",
+	"percent_change": "207.14",
+	"date": "2020-02-15T13:32:35.858Z"
+}, {
+	"symbol": "ONX-BTC",
+	"mid": "0.00000002",
+	"bid": "0.00000001",
+	"ask": "0.00000002",
+	"high": "0.00000001",
+	"low": "0.00000001",
+	"volume_pair": "105996.00000000",
+	"volume": "0.00105996",
+	"last_price": "0.00000001",
+	"price_close_yesterday": "0.00000001",
+	"price_open_today": "0.00000001",
+	"vwap": "0",
+	"percent_change": "0.00",
+	"date": "2020-02-15T13:32:35.858Z"
+}, {
+	"symbol": "AREPA-BTC",
+	"mid": "0.00000026",
+	"bid": "0.00000025",
+	"ask": "0.00000026",
+	"high": "0.00000027",
+	"low": "0.00000026",
+	"volume_pair": "460.99320053",
+	"volume": "0.00012147",
+	"last_price": "0.00000026",
+	"price_close_yesterday": "0.00000027",
+	"price_open_today": "0.00000027",
+	"vwap": "0",
+	"percent_change": "-3.70",
+	"date": "2020-02-15T13:32:35.858Z"
+}]
+```
+
+### Ticker
+```
 GET /api/v1/ticker
 ```
 The ticker is a high level overview of the state of the market. It shows you the current best bid and ask, as well as the last trade price. It also includes information such as daily volume and how much the price has moved over the last day.
