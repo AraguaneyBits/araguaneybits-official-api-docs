@@ -13,7 +13,7 @@
   It is important to **NOT** treat this as a failure operation; the execution status is
   **UNKNOWN** and could have been a success.
 * Any endpoint can return an ERROR; the error payload is as follows:
-```javascript
+```json
 {
   "code": -1121,
   "msg": "Invalid symbol."
@@ -45,7 +45,7 @@ Test connectivity to the Rest API.
 NONE
 
 **Response:**
-```javascript
+```json
 {
     "version": "1.0.0"
 }
@@ -64,7 +64,7 @@ Test connectivity to the Rest API and get the current server time.
 NONE
 
 **Response:**
-```javascript
+```json
 {
     "server_time": 1557433979908
 }
@@ -83,7 +83,7 @@ Get a list of valid symbol IDs and the pair details.
 NONE
 
 **Response:**
-```javascript
+```json
 [
     {
         "symbol": "AREPA-BTC",
@@ -132,7 +132,7 @@ Get a list of supported currencies.
 NONE
 
 **Response:**
-```javascript
+```json
 [
     {
         "name": "DASH",
@@ -173,7 +173,7 @@ symbol | STRING | YES |
 
 
 **Response:**
-```javascript
+```json
 {
     "symbol": "ONX-BTC",
     "mid": "0.00000008",
@@ -209,7 +209,7 @@ symbol | STRING | YES |
 
 
 **Response:**
-```javascript
+```json
 {
     "asks": [
         {
@@ -259,7 +259,7 @@ symbol | STRING | YES |
 
 
 **Response:**
-```javascript
+```json
 [
     {
         "side": "buy",
